@@ -1,0 +1,5 @@
+D:/DH/Lumi/LabROBI/Config_UART/SDK_ROBI_STM32F1_1.0.0/shared/Middle/button/eventbutton.c:50:1:EventButton_Init	1
+D:/DH/Lumi/LabROBI/Config_UART/SDK_ROBI_STM32F1_1.0.0/shared/Middle/button/eventbutton.c:68:1:ButtonProcessEventEdge	2
+D:/DH/Lumi/LabROBI/Config_UART/SDK_ROBI_STM32F1_1.0.0/shared/Middle/button/eventbutton.c:94:1:ButtonProcessEventPress	6
+D:/DH/Lumi/LabROBI/Config_UART/SDK_ROBI_STM32F1_1.0.0/shared/Middle/button/eventbutton.c:133:1:ButtonProcessEventHold	5
+D:/DH/Lumi/LabROBI/Config_UART/SDK_ROBI_STM32F1_1.0.0/shared/Middle/button/eventbutton.c:168:1:ButtonProcessEventRelease	5

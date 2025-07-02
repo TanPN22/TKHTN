@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;RTOS_STM32_C8T6_EventFlag/RTOS_STM32_C8T6_Semaphore.ioc&apos; to &apos;RTOS_STM32_C8T6_EventFlag.ioc&apos;" description="Rename resource &apos;RTOS_STM32_C8T6_Semaphore.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="RTOS_STM32_C8T6_Semaphore.ioc" name="RTOS_STM32_C8T6_EventFlag.ioc" stamp="1749228957121" updateReferences="true"/>
+</session>

@@ -1,0 +1,6 @@
+D:/DH/20242 TK He thong nhung/STM32 Homework Prj/TKHTNhung_BTL_20242/MyLib/MPU9250/MPU9250.c:15:9:MPU_Read_Register	1
+D:/DH/20242 TK He thong nhung/STM32 Homework Prj/TKHTNhung_BTL_20242/MyLib/MPU9250/MPU9250.c:22:6:MPU_Write_Register	1
+D:/DH/20242 TK He thong nhung/STM32 Homework Prj/TKHTNhung_BTL_20242/MyLib/MPU9250/MPU9250.c:27:6:MPU9250_Init	1
+D:/DH/20242 TK He thong nhung/STM32 Homework Prj/TKHTNhung_BTL_20242/MyLib/MPU9250/MPU9250.c:38:6:MPU9250_Read_Accel_Gyro	1
+D:/DH/20242 TK He thong nhung/STM32 Homework Prj/TKHTNhung_BTL_20242/MyLib/MPU9250/MPU9250.c:53:6:Send_Sensor_Data	1
+D:/DH/20242 TK He thong nhung/STM32 Homework Prj/TKHTNhung_BTL_20242/MyLib/MPU9250/MPU9250.c:64:6:MPU9250_Getdata	1

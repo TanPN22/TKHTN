@@ -1,0 +1,5 @@
+D:/DH/Lumi/LabROBI/Config_UART/SDK_ROBI_STM32F1_1.0.0/shared/Middle/sensor/optical_sensor.c:53:1:OpticalSensor_Init	80	static
+D:/DH/Lumi/LabROBI/Config_UART/SDK_ROBI_STM32F1_1.0.0/shared/Middle/sensor/optical_sensor.c:142:1:OpticalSensor_MeasureUseDMAMode	16	static
+D:/DH/Lumi/LabROBI/Config_UART/SDK_ROBI_STM32F1_1.0.0/shared/Middle/sensor/optical_sensor.c:157:6:SampleWhite	32	static
+D:/DH/Lumi/LabROBI/Config_UART/SDK_ROBI_STM32F1_1.0.0/shared/Middle/sensor/optical_sensor.c:179:6:SampleBlack	32	static
+D:/DH/Lumi/LabROBI/Config_UART/SDK_ROBI_STM32F1_1.0.0/shared/Middle/sensor/optical_sensor.c:201:6:CalculateAdcThreshold	16	static

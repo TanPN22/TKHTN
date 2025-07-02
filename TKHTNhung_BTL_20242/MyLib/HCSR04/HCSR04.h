@@ -1,0 +1,23 @@
+#ifndef HCSR04_H_INC
+#define HCSR04_H_INC
+
+#include "main.h"
+
+exterm typedef enum
+{
+	HCSR04_IDLE_STATE,
+	HCSR04_WAIT_RISING_STATE,
+	HCSRO4_WAIT_FALLING_STATE,
+	HCSR04_COMPLETE_STATE,
+}HCSR04_State;
+
+extern HCSR04_State hc04_state;
+
+extern float Distance;
+
+void HCSR04_Start();
+void HC04_Handle();
+void Delay_ms(uint16_t ms);
+void Delay_us(uint16_t us);
+
+#endif

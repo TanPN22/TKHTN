@@ -1,0 +1,22 @@
+13:11:44 **** Incremental Build of configuration Debug for project Ex_0304_EXTI ****
+make -j16 all 
+arm-none-eabi-gcc -o "Ex_0304_EXTI.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\DH\20242 TK He thong nhung\STM32 Homework Prj\Ex_0304_EXTI\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ex_0304_EXTI.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ex_0304_EXTI.elf
+ 
+arm-none-eabi-size  Ex_0304_EXTI.elf 
+arm-none-eabi-objdump -h -S Ex_0304_EXTI.elf  > "Ex_0304_EXTI.list"
+arm-none-eabi-objcopy  -O ihex Ex_0304_EXTI.elf  "Ex_0304_EXTI.hex"
+   text	   data	    bss	    dec	    hex	filename
+   4880	     12	   1572	   6464	   1940	Ex_0304_EXTI.elf
+arm-none-eabi-objcopy  -O binary Ex_0304_EXTI.elf  "Ex_0304_EXTI.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Ex_0304_EXTI.list
+ 
+Finished building: Ex_0304_EXTI.hex
+Finished building: Ex_0304_EXTI.bin
+ 
+ 
+
+13:11:46 Build Finished. 0 errors, 0 warnings. (took 1s.447ms)
+

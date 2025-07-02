@@ -1,0 +1,10 @@
+22:50:40 **** Build of configuration Debug for project Ex_ADC_TempSensor_STM32 ****
+make -j16 all 
+arm-none-eabi-size  Ex_ADC_TempSensor_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+  48076	    468	   2212	  50756	   c644	Ex_ADC_TempSensor_STM32.elf
+Finished building: default.size.stdout
+ 
+
+22:50:40 Build Finished. 0 errors, 0 warnings. (took 288ms)
+

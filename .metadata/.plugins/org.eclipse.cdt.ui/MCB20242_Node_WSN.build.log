@@ -1,0 +1,10 @@
+21:54:28 **** Incremental Build of configuration Debug for project MCB20242_Node_WSN ****
+make -j16 all 
+arm-none-eabi-size  MCB20242_Node_WSN.elf 
+   text	   data	    bss	    dec	    hex	filename
+  42860	    480	   2448	  45788	   b2dc	MCB20242_Node_WSN.elf
+Finished building: default.size.stdout
+ 
+
+21:54:28 Build Finished. 0 errors, 0 warnings. (took 290ms)
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MCB20242_Node_WSN/MCB_Node_WSN.ioc&apos; to &apos;MCB20242_Node_WSN.ioc&apos;" description="Rename resource &apos;MCB_Node_WSN.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="MCB_Node_WSN.ioc" name="MCB20242_Node_WSN.ioc" stamp="1751188262634" updateReferences="true"/>
+</session>

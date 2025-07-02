@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;P2_2_TKHTNhung_BTL_20243/P2_1_TKHTNhung_BTL_20243.ioc&apos; to &apos;P2_2_TKHTNhung_BTL_20243.ioc&apos;" description="Rename resource &apos;P2_1_TKHTNhung_BTL_20243.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="P2_1_TKHTNhung_BTL_20243.ioc" name="P2_2_TKHTNhung_BTL_20243.ioc" stamp="1751374749140" updateReferences="true"/>
+</session>

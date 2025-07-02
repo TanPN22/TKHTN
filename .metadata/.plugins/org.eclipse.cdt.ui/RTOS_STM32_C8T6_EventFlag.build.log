@@ -1,0 +1,10 @@
+20:41:08 **** Incremental Build of configuration Debug for project RTOS_STM32_C8T6_EventFlag ****
+make -j16 all 
+arm-none-eabi-size  RTOS_STM32_C8T6_EventFlag.elf 
+   text	   data	    bss	    dec	    hex	filename
+  32060	    108	   8820	  40988	   a01c	RTOS_STM32_C8T6_EventFlag.elf
+Finished building: default.size.stdout
+ 
+
+20:41:08 Build Finished. 0 errors, 0 warnings. (took 390ms)
+

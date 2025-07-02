@@ -1,0 +1,7 @@
+D:/DH/Lumi/LabROBI/Config_UART/SDK_ROBI_STM32F1_1.0.0/shared/Middle/motor/encoder.c:77:1:Encoder_Init	1
+D:/DH/Lumi/LabROBI/Config_UART/SDK_ROBI_STM32F1_1.0.0/shared/Middle/motor/encoder.c:90:6:EncoderGPIO_Config	1
+D:/DH/Lumi/LabROBI/Config_UART/SDK_ROBI_STM32F1_1.0.0/shared/Middle/motor/encoder.c:139:9:binaryToDecimal	2
+D:/DH/Lumi/LabROBI/Config_UART/SDK_ROBI_STM32F1_1.0.0/shared/Middle/motor/encoder.c:159:6:EXTI3_IRQHandler	2
+D:/DH/Lumi/LabROBI/Config_UART/SDK_ROBI_STM32F1_1.0.0/shared/Middle/motor/encoder.c:182:6:EXTI9_5_IRQHandler	2
+D:/DH/Lumi/LabROBI/Config_UART/SDK_ROBI_STM32F1_1.0.0/shared/Middle/motor/encoder.c:206:6:CalculateSpeed	3
+D:/DH/Lumi/LabROBI/Config_UART/SDK_ROBI_STM32F1_1.0.0/shared/Middle/motor/encoder.c:237:6:ScanTimer	2

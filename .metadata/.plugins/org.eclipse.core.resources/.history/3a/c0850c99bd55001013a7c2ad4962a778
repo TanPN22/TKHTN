@@ -1,0 +1,16 @@
+#ifndef HCSR04_H_INC
+#define HCSR04_H_INC
+
+#include "main.h"
+
+uint32_t count1=0,count2=0;
+
+typedef enum
+{
+	HCSR04_IDLE_STATE,
+	HCSR04_WAIT_RISING_STATE,
+	HCSRO4_WAIT_FALLING_STATE,
+	HCSR04_COMPLETE_STATE,
+}HCSR04_State;
+
+#endif

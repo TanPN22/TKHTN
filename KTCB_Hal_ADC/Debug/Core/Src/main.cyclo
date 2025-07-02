@@ -1,0 +1,15 @@
+../Core/Src/main.c:82:7:lcd_send_internal	1
+../Core/Src/main.c:95:7:lcd_send_cmd	1
+../Core/Src/main.c:100:7:lcd_send_data	1
+../Core/Src/main.c:105:7:lcd_init	1
+../Core/Src/main.c:123:7:lcd_clear	1
+../Core/Src/main.c:128:7:lcd_set_cursor	2
+../Core/Src/main.c:133:7:lcd_print	2
+../Core/Src/main.c:143:7:lcd_print_speed	1
+../Core/Src/main.c:177:10:Get_ADC_channel	2
+../Core/Src/main.c:157:5:main	4
+../Core/Src/main.c:245:6:SystemClock_Config	4
+../Core/Src/main.c:291:13:MX_ADC1_Init	3
+../Core/Src/main.c:338:13:MX_I2C1_Init	2
+../Core/Src/main.c:372:13:MX_GPIO_Init	1
+../Core/Src/main.c:394:6:Error_Handler	1

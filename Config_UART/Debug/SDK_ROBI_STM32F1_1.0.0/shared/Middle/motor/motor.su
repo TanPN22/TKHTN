@@ -1,0 +1,4 @@
+D:/DH/Lumi/LabROBI/Config_UART/SDK_ROBI_STM32F1_1.0.0/shared/Middle/motor/motor.c:54:1:MotorControl_Init	8	static
+D:/DH/Lumi/LabROBI/Config_UART/SDK_ROBI_STM32F1_1.0.0/shared/Middle/motor/motor.c:67:6:MOTOR_GPIO_Config	40	static
+D:/DH/Lumi/LabROBI/Config_UART/SDK_ROBI_STM32F1_1.0.0/shared/Middle/motor/motor.c:125:6:MotorControl_ForwardRotating	24	static
+D:/DH/Lumi/LabROBI/Config_UART/SDK_ROBI_STM32F1_1.0.0/shared/Middle/motor/motor.c:158:6:MotorControl_ReverseRotating	24	static

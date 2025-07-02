@@ -1,0 +1,15 @@
+../Core/LoRa_lib/lora.c:12:9:lora_read_reg	24	static
+../Core/LoRa_lib/lora.c:25:6:lora_write_reg	24	static
+../Core/LoRa_lib/lora.c:37:9:lora_init	24	static
+../Core/LoRa_lib/lora.c:67:5:lora_prasePacket	24	static
+../Core/LoRa_lib/lora.c:91:9:lora_available	16	static
+../Core/LoRa_lib/lora.c:95:9:lora_read	16	static
+../Core/LoRa_lib/lora.c:102:9:lora_begin_packet	16	static
+../Core/LoRa_lib/lora.c:114:6:lora_tx	32	static
+../Core/LoRa_lib/lora.c:126:9:lora_end_packet	24	static
+../Core/LoRa_lib/lora.c:139:6:lora_set_frequency	32	static
+../Core/LoRa_lib/lora.c:145:6:lora_set_bandwidth	24	static
+../Core/LoRa_lib/lora.c:151:6:lora_set_gain	24	static
+../Core/LoRa_lib/lora.c:161:6:lora_set_spreading_factor	24	static
+../Core/LoRa_lib/lora.c:180:6:lora_set_coding_rate	24	static
+../Core/LoRa_lib/lora.c:208:6:lora_set_mode	24	static

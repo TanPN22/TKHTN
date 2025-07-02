@@ -1,0 +1,12 @@
+../Core/Src/main.c:109:5:_write	1
+../Core/Src/main.c:118:6:HAL_UART_RxCpltCallback	3
+../Core/Src/main.c:145:5:main	1
+../Core/Src/main.c:247:6:SystemClock_Config	3
+../Core/Src/main.c:286:13:MX_USART1_UART_Init	2
+../Core/Src/main.c:319:13:MX_GPIO_Init	1
+../Core/Src/main.c:365:6:S_Task1_LedBoard	2
+../Core/Src/main.c:413:6:S_Task2_LedBlue	2
+../Core/Src/main.c:459:6:S_Task1_PrintNotify	1
+../Core/Src/main.c:489:6:S_Task4_CountUp	1
+../Core/Src/main.c:521:6:HAL_TIM_PeriodElapsedCallback	2
+../Core/Src/main.c:538:6:Error_Handler	1

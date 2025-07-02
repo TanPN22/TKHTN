@@ -1,0 +1,10 @@
+21:49:14 **** Incremental Build of configuration Debug for project MCB20242_Hub_WSN ****
+make -j16 all 
+arm-none-eabi-size  MCB20242_Hub_WSN.elf 
+   text	   data	    bss	    dec	    hex	filename
+  40916	    492	   2612	  44020	   abf4	MCB20242_Hub_WSN.elf
+Finished building: default.size.stdout
+ 
+
+21:49:15 Build Finished. 0 errors, 0 warnings. (took 291ms)
+

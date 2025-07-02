@@ -1,0 +1,15 @@
+../Core/Src/main.c:82:7:lcd_send_internal	32	static
+../Core/Src/main.c:95:7:lcd_send_cmd	16	static
+../Core/Src/main.c:100:7:lcd_send_data	16	static
+../Core/Src/main.c:105:7:lcd_init	8	static
+../Core/Src/main.c:123:7:lcd_clear	8	static
+../Core/Src/main.c:128:7:lcd_set_cursor	24	static
+../Core/Src/main.c:133:7:lcd_print	16	static
+../Core/Src/main.c:143:7:lcd_print_speed	40	static
+../Core/Src/main.c:177:10:Get_ADC_channel	32	static
+../Core/Src/main.c:157:5:main	24	static
+../Core/Src/main.c:245:6:SystemClock_Config	88	static
+../Core/Src/main.c:291:13:MX_ADC1_Init	24	static
+../Core/Src/main.c:338:13:MX_I2C1_Init	8	static
+../Core/Src/main.c:372:13:MX_GPIO_Init	24	static
+../Core/Src/main.c:394:6:Error_Handler	4	static,ignoring_inline_asm

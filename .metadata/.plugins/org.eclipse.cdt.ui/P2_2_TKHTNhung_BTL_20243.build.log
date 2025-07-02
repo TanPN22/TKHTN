@@ -1,0 +1,10 @@
+20:44:36 **** Incremental Build of configuration Debug for project P2_2_TKHTNhung_BTL_20243 ****
+make -j16 all 
+arm-none-eabi-size  P2_2_TKHTNhung_BTL_20243.elf 
+   text	   data	    bss	    dec	    hex	filename
+  58340	    472	  10160	  68972	  10d6c	P2_2_TKHTNhung_BTL_20243.elf
+Finished building: default.size.stdout
+ 
+
+20:44:36 Build Finished. 0 errors, 0 warnings. (took 451ms)
+

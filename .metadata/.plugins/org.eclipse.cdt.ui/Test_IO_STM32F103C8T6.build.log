@@ -1,0 +1,10 @@
+12:45:28 **** Incremental Build of configuration Debug for project Test_IO_STM32F103C8T6 ****
+make -j16 all 
+arm-none-eabi-size  Test_IO_STM32F103C8T6.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4680	     12	   1572	   6264	   1878	Test_IO_STM32F103C8T6.elf
+Finished building: default.size.stdout
+ 
+
+12:45:28 Build Finished. 0 errors, 0 warnings. (took 541ms)
+

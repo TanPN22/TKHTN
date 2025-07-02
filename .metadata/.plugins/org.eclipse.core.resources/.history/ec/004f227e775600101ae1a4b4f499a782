@@ -1,0 +1,78 @@
+#include "HCSR04.h"
+#include "stdio.h"
+#include "main.h"
+#include "cmsis_os.h"
+uint32_t count1=0,count2=0;
+
+HCSR04_State hc04_state = HCSR04_IDLE_STATE;
+
+float Distance;
+
+void Delay_us(uint16_t us){
+	htim1.Instance -> CNT = 0;
+	//TIM2 -> CNT = 0; (Cach 2)
+	HAL_TIM_Base_Start(&htim1);
+	while (htim1.Instance -> CNT < us);
+	HAL_TIM_Base_Stop(&htim1);
+}
+
+void Delay_ms(uint16_t ms){
+	for (int i = 0;i<ms;i++){
+		Delay_us(1000);
+	}
+}
+
+void pulseGPIO(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin){
+	HAL_GPIO_WritePin(GPIOx, GPIO_Pin, SET);
+	Delay_us(20);
+	HAL_GPIO_WritePin(GPIOx, GPIO_Pin, RESET);
+}
+
+void HCSR04_Start(){
+	if (hc04_state == HCSR04_IDLE_STATE){
+	pulseGPIO(GPIOA, GPIO_PIN_8);
+	hc04_state = HCSR04_WAIT_RISING_STATE;
+	}
+}
+
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
+	switch (hc04_state) {
+		case HCSR04_WAIT_RISING_STATE:
+			if (HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_12) == 1){
+			htim1.Instance -> CNT = 0;
+			hc04_state = HCSRO4_WAIT_FALLING_STATE;
+			HAL_TIM_Base_Start(&htim1);
+			}else {
+				hc04_state = HCSR04_IDLE_STATE;
+			}
+			break;
+		case HCSRO4_WAIT_FALLING_STATE:
+			if (HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_12) == 0){
+			HAL_TIM_Base_Stop(&htim1);
+			hc04_state = HCSR04_COMPLETE_STATE;
+			HC04_Handle();
+			}else {
+				hc04_state = HCSR04_IDLE_STATE;
+			}
+			break;
+		default:
+			break;
+	}
+		count1 ++;
+}
+
+void HC04_Complete_Callback(float Distance){
+	//Dieu khien dong co.
+	//Hien thi len LCD.
+	osSemaphoreAcquire(Sem2_UARTHandle;, )
+	printf("Distance: %f\n", Distance);
+	hc04_state = HCSR04_IDLE_STATE;
+}
+
+void HC04_Handle(){
+	if (hc04_state == HCSR04_COMPLETE_STATE){
+		//Tinh toan khoang cach
+		Distance = 0.017 * htim1.Instance->CNT;
+		HC04_Complete_Callback(Distance);
+	}
+}

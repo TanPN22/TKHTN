@@ -1,0 +1,10 @@
+13:45:37 **** Incremental Build of configuration Debug for project RTOS_SMT32 ****
+make -j16 all 
+arm-none-eabi-size  RTOS_SMT32.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11844	     96	   6056	  17996	   464c	RTOS_SMT32.elf
+Finished building: default.size.stdout
+ 
+
+13:45:38 Build Finished. 0 errors, 0 warnings. (took 338ms)
+

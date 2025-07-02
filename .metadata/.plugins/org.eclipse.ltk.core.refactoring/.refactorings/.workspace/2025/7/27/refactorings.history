@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;TKHTNhung_BTL_20242/MyLib/MPU9250/MPU9250.h&apos;" deleteContents="false" description="Delete resource &apos;TKHTNhung_BTL_20242/MyLib/MPU9250/MPU9250.h&apos;" element1="/TKHTNhung_BTL_20242/MyLib/MPU9250/MPU9250.h" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1751353301633"/>&#x0A;<refactoring comment="Delete resource &apos;PFinal_TKHTNhung_BTL_20242&apos;" deleteContents="true" description="Delete resource &apos;PFinal_TKHTNhung_BTL_20242&apos;" element1="/PFinal_TKHTNhung_BTL_20242" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1751419926627"/>
+</session>
